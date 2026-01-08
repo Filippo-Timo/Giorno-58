@@ -1,5 +1,7 @@
 package Esercizio2;
 
+import java.util.Arrays;
+
 public class Sim {
 
     //ATTRIBUTI
@@ -19,7 +21,7 @@ public class Sim {
         System.out.println("Questa è la sim: ");
         System.out.println("Numero: " + numeroDiTelefono);
         System.out.println("Credito: " + credito);
-        System.out.println("Elenco ultime chiamate: " + ultimeChiamate);
+        System.out.println("Elenco ultime chiamate: " + Arrays.toString(ultimeChiamate));
     }
 
     public void riempiChiamate(Chiamata chiamata1, Chiamata chiamata2, Chiamata chiamata3, Chiamata chiamata4, Chiamata chiamata5) {

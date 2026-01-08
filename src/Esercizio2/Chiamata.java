@@ -23,4 +23,11 @@ public class Chiamata {
         return durataChiamata;
     }
 
+    @Override
+    public String toString() {
+        return "Chiamata{" +
+                "numeroTelefonico= " + numeroTelefonico + '\'' +
+                ", durataChiamata= " + durataChiamata +
+                '}';
+    }
 }
